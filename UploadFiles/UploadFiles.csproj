@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{1BA8E2BA-C942-4A4C-B340-38FACC83C4BF}</ProjectGuid>
+    <ProjectGuid>{FC271FAF-6614-4FF1-ADDD-8213918A8C65}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ComposingStream</RootNamespace>
-    <AssemblyName>ComposingStream</AssemblyName>
+    <RootNamespace>UploadFiles</RootNamespace>
+    <AssemblyName>UploadFiles</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ReadBuf.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
