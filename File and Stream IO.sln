@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadFiles", "UploadFiles\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stream and byte", "stream and byte\stream and byte.csproj", "{F151F9C6-FFD8-44AE-BA44-B34D670E08DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipStream", "ZipStream\ZipStream.csproj", "{99B58DC4-4649-4E11-8A5B-19E735624CF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,6 +27,10 @@ Global
 		{F151F9C6-FFD8-44AE-BA44-B34D670E08DB}.Debug|x86.Build.0 = Debug|x86
 		{F151F9C6-FFD8-44AE-BA44-B34D670E08DB}.Release|x86.ActiveCfg = Release|x86
 		{F151F9C6-FFD8-44AE-BA44-B34D670E08DB}.Release|x86.Build.0 = Release|x86
+		{99B58DC4-4649-4E11-8A5B-19E735624CF2}.Debug|x86.ActiveCfg = Debug|x86
+		{99B58DC4-4649-4E11-8A5B-19E735624CF2}.Debug|x86.Build.0 = Debug|x86
+		{99B58DC4-4649-4E11-8A5B-19E735624CF2}.Release|x86.ActiveCfg = Release|x86
+		{99B58DC4-4649-4E11-8A5B-19E735624CF2}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
