@@ -17,12 +17,12 @@ namespace ZipStream
                 string[] files = Directory.GetFiles(@"C:\ForRobot");
                 zip.AddFiles(files,"");
                 zip.Comment = "This zip was created at " + System.DateTime.Now.ToString("G");
+                //zip.Save(@"C:\ForRobot.zip");
                 zip.Save(outStream);
-                zip.Save("ForRobot.zip");
-            }
+             }
             
             Console.WriteLine(outStream.Length);
-
+            outStream.Close();
             Console.ReadLine(); 
         }
         

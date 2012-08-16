@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Ionic.Zip">
-      <HintPath>..\..\..\Visual Studio 2010\Projects\inversion-robot\RobotService\lib\zip-v1.9\Ionic.Zip.dll</HintPath>
+      <HintPath>lib\Ionic.Zip.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
